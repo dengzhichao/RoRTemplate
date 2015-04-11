@@ -4,7 +4,8 @@
     <p class="lead">
       To your Ruby On Rails Template!
       <% if !current_user %>
-        <a class="btn btn-lg btn-success" href="/signup">Sign Up<span class="fa fa-check"></span></a>
+        <%= link_to 'Sign up', new_user_registration_path, class: 'btn btn-lg' %>
+        <span class='fa fa-check'></span></a>
       <% end %>
     </p>
   </div>
