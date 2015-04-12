@@ -45,3 +45,5 @@ gem 'figaro'
 
 # user login & registration
 gem 'devise'
+# facebook
+gem 'omniauth-facebook'
